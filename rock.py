@@ -53,9 +53,9 @@ while True:
 	if result == Draw:
 		print("<== Its a tie ==>")
 	if result == choice_name:
-		print("<== User wins ==>")
+		print("<== *********BOOM YOU WON*********   ==>")
 	else:
-		print("<== Computer wins ==>")
+		print("<== YOU LOSE ): ==>")
 
 	print("Do you want to play again? (Y/N)")
 	ans = input().lower
@@ -64,4 +64,6 @@ while True:
 	if ans == 'n':
 		break
 
-print("\nThanks for playing")
+print("Thanks for playing"/n)
+print("CREDITS : ABHISHEK BHANOT")
+print("Cr
