@@ -5,10 +5,10 @@ print("Winning Rules of the Rock paper scissor game as follows: \n"
 	+ "paper vs scissor->scissor wins \n")
 
 while True:
-	print("Enter choice \n 1 for Rock, \n 2 for paper, and \n 3 for scissor \n")
-	choice = int(input("User turn: "))
-	while choice > 3 or choice < 1:
-		choice = int(input("enter valid input: "))
+	print("Enter choice \n R for Rock, \n P for paper, and \n S for scissor \n")
+	choice = input("User turn: ")
+	while choice != "R" or choice != "P" or choice !="S":
+		choice = input("enter valid input: ")
 
 	if choice == 1:
 		choice_name = 'Rock'
@@ -24,11 +24,11 @@ while True:
 		comp_choice = random.randint(1, 3)
 
 	if comp_choice == 1:
-		comp_choice_name = 'Rock'
+		comp_choice_name = 'ROCK'
 	elif comp_choice == 2:
-		comp_choice_name = 'paper'
+		comp_choice_name = 'PAPER'
 	else:
-		comp_choice_name = 'scissor'
+		comp_choice_name = 'SCISSOR'
 
 	print("Computer choice is: " + comp_choice_name)
 
@@ -66,4 +66,4 @@ while True:
 
 print("Thanks for playing"/n)
 print("CREDITS : ABHISHEK BHANOT")
-print("Cr
+
