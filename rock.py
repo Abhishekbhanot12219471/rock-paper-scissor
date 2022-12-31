@@ -34,26 +34,26 @@ while True:
 
 	print(choice_name + " V/s " + comp_choice_name
 	if choice == comp_choice:
-		print("Draw=> ", end="")
+		print("DRAW=> ", end="")
 		result = Draw
 
 		if((choice == 1 and comp_choice == 2) or
 		(choice == 2 and comp_choice == 1)):
-			print("paper wins => ", end="")
+			print("PAPER  wins => ", end="")
 			result = "paper"
 
 		elif((choice == 1 and comp_choice == 3) or
 				(choice == 3 and comp_choice == 1)):
-			print("Rock wins =>", end="")
+			print("ROCK wins =>", end="")
 			result = "Rock"
 		else:
-			print("scissor wins =>", end="")
+			print("SCISSOR wins =>", end="")
 			result = "scissor"
       
 	if result == Draw:
 		print("<== Its a tie ==>")
 	if result == choice_name:
-		print("<== *********BOOM YOU WON*********   ==>")
+		print("<== *********BOOM YOU WON********* ==>")
 	else:
 		print("<== YOU LOSE ): ==>")
 
@@ -67,3 +67,5 @@ while True:
 print("Thanks for playing"/n)
 print("CREDITS : ABHISHEK BHANOT")
 
+#tommorow i will chnge the program and will show 
+#and print if user wins or computerr
